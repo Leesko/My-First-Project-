@@ -1,0 +1,13 @@
+import random
+
+opening_statement= ['A long long time ago', 'once upon a time', 'In the year 2300']
+character= ['there lived a woman','there lived a girl']
+time= ['on a dark night','one day','on a rainy day']
+story_plot= ['she went exploring','she went packing for','she was getting ready to leave']
+place= ['for the moon','for mars','the spaceship']
+second_character= ['when she saw a woman','when she saw a clown','when she saw an astronaut']
+work= ['looking for her keys on the floor','crying and counting the starts','eating ice cream and singing "wheels on the Bus" song']
+
+
+print (random.choice (opening_statement) + '  ' + random.choice(character) + ' , ' + random.choice (time) + '  ' + random.choice(story_plot) + '  ' + random.choice(place) + '  ' + random.choice(second_character) + '  ' + random.choice(work) + ' . ')
+
